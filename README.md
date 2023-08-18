@@ -1,5 +1,10 @@
 # ClimaTempo
 
+Utilizando arquitetura em camadas.
+Utilizado DDD.
+
+
+
 Necessário ter o docker instalado na máquina.
 
 Antes de utilizar rodar os comandos.
