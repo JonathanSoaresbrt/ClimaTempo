@@ -1,0 +1,15 @@
+/Users/jonathanbrito/TesteAeC/AeC.Infra/bin/Debug/net7.0/AeC.Infra.deps.json
+/Users/jonathanbrito/TesteAeC/AeC.Infra/bin/Debug/net7.0/AeC.Infra.dll
+/Users/jonathanbrito/TesteAeC/AeC.Infra/bin/Debug/net7.0/AeC.Infra.pdb
+/Users/jonathanbrito/TesteAeC/AeC.Infra/bin/Debug/net7.0/AeC.Domain.dll
+/Users/jonathanbrito/TesteAeC/AeC.Infra/bin/Debug/net7.0/AeC.Domain.pdb
+/Users/jonathanbrito/TesteAeC/AeC.Infra/obj/Debug/net7.0/AeC.Infra.csproj.AssemblyReference.cache
+/Users/jonathanbrito/TesteAeC/AeC.Infra/obj/Debug/net7.0/AeC.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jonathanbrito/TesteAeC/AeC.Infra/obj/Debug/net7.0/AeC.Infra.AssemblyInfoInputs.cache
+/Users/jonathanbrito/TesteAeC/AeC.Infra/obj/Debug/net7.0/AeC.Infra.AssemblyInfo.cs
+/Users/jonathanbrito/TesteAeC/AeC.Infra/obj/Debug/net7.0/AeC.Infra.csproj.CoreCompileInputs.cache
+/Users/jonathanbrito/TesteAeC/AeC.Infra/obj/Debug/net7.0/AeC.Infra.csproj.CopyComplete
+/Users/jonathanbrito/TesteAeC/AeC.Infra/obj/Debug/net7.0/AeC.Infra.dll
+/Users/jonathanbrito/TesteAeC/AeC.Infra/obj/Debug/net7.0/refint/AeC.Infra.dll
+/Users/jonathanbrito/TesteAeC/AeC.Infra/obj/Debug/net7.0/AeC.Infra.pdb
+/Users/jonathanbrito/TesteAeC/AeC.Infra/obj/Debug/net7.0/ref/AeC.Infra.dll

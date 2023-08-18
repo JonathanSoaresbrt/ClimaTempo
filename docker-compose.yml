@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: Teste#Aec@2023
+      ACCEPT_EULA: "Y"
+    ports:
+      - "8081:81"
+
+  my-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"

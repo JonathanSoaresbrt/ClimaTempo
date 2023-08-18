@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jonathanbrito/TesteAeC/AeC.Tests/AeC.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/jonathanbrito/TesteAeC/AeC.Application/AeC.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jonathanbrito/TesteAeC/AeC.Application/AeC.Application.csproj",
+        "projectName": "AeC.Application",
+        "projectPath": "/Users/jonathanbrito/TesteAeC/AeC.Application/AeC.Application.csproj",
+        "packagesPath": "/Users/jonathanbrito/.nuget/packages/",
+        "outputPath": "/Users/jonathanbrito/TesteAeC/AeC.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jonathanbrito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/jonathanbrito/TesteAeC/AeC.Domain/AeC.Domain.csproj": {
+                "projectPath": "/Users/jonathanbrito/TesteAeC/AeC.Domain/AeC.Domain.csproj"
+              },
+              "/Users/jonathanbrito/TesteAeC/AeC.Infra/AeC.Infra.csproj": {
+                "projectPath": "/Users/jonathanbrito/TesteAeC/AeC.Infra/AeC.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jonathanbrito/TesteAeC/AeC.Domain/AeC.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jonathanbrito/TesteAeC/AeC.Domain/AeC.Domain.csproj",
+        "projectName": "AeC.Domain",
+        "projectPath": "/Users/jonathanbrito/TesteAeC/AeC.Domain/AeC.Domain.csproj",
+        "packagesPath": "/Users/jonathanbrito/.nuget/packages/",
+        "outputPath": "/Users/jonathanbrito/TesteAeC/AeC.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jonathanbrito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jonathanbrito/TesteAeC/AeC.Infra/AeC.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jonathanbrito/TesteAeC/AeC.Infra/AeC.Infra.csproj",
+        "projectName": "AeC.Infra",
+        "projectPath": "/Users/jonathanbrito/TesteAeC/AeC.Infra/AeC.Infra.csproj",
+        "packagesPath": "/Users/jonathanbrito/.nuget/packages/",
+        "outputPath": "/Users/jonathanbrito/TesteAeC/AeC.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jonathanbrito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/jonathanbrito/TesteAeC/AeC.Domain/AeC.Domain.csproj": {
+                "projectPath": "/Users/jonathanbrito/TesteAeC/AeC.Domain/AeC.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jonathanbrito/TesteAeC/AeC.Tests/AeC.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jonathanbrito/TesteAeC/AeC.Tests/AeC.Tests.csproj",
+        "projectName": "AeC.Tests",
+        "projectPath": "/Users/jonathanbrito/TesteAeC/AeC.Tests/AeC.Tests.csproj",
+        "packagesPath": "/Users/jonathanbrito/.nuget/packages/",
+        "outputPath": "/Users/jonathanbrito/TesteAeC/AeC.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jonathanbrito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/jonathanbrito/TesteAeC/AeC.Application/AeC.Application.csproj": {
+                "projectPath": "/Users/jonathanbrito/TesteAeC/AeC.Application/AeC.Application.csproj"
+              },
+              "/Users/jonathanbrito/TesteAeC/AeC.Domain/AeC.Domain.csproj": {
+                "projectPath": "/Users/jonathanbrito/TesteAeC/AeC.Domain/AeC.Domain.csproj"
+              },
+              "/Users/jonathanbrito/TesteAeC/AeC.Infra/AeC.Infra.csproj": {
+                "projectPath": "/Users/jonathanbrito/TesteAeC/AeC.Infra/AeC.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

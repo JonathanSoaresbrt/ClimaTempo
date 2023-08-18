@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{8B98431F-FB5C-44BE-80CD-744D919D0DB3}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AeC.Application PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AeC.Application/Program.cs">
+    <Files>
+      <File FileName="AeC.Application/Program.cs" Line="1" Column="1" />
+      <File FileName="AeC.Application/Services/Interfaces/IApplicationServiceAeroporto.cs" />
+      <File FileName="AeC.Application/Services/Interfaces/IApplicationServiceCidade.cs" />
+      <File FileName="AeC.Application/Services/Aeroporto/ApplicationServiceAeroporto.cs" />
+      <File FileName="AeC.Infra/ExternalApis/interfaces/BrasilApi/IApiExternaClima.cs" />
+      <File FileName="AeC.Application/Services/Cidade/ApplicationServiceCidade.cs" />
+      <File FileName="AeC.Application/Controllers/ClimaController.cs" />
+      <File FileName="AeC.Application/AeC.Application.csproj" />
+      <File FileName="AeC.Infra/Context/DbContextAec.cs" />
+      <File FileName="AeC.Application/appsettings.json" />
+      <File FileName="AeC.Application/appsettings.Development.json" />
+      <File FileName="AeC.Domain/Models/CidadeClima.cs" />
+      <File FileName="AeC.Domain/Models/ClimaDia.cs" />
+      <File FileName="AeC.Infra/ExternalApis/HttpClientFactory/HttpClientFactory.cs" />
+      <File FileName="AeC.Domain/ValueObjects/Endereco.cs" />
+      <File FileName="AeC.Domain/Models/AeroportoClima.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TesteAeC" expanded="True">
+            <Node name="AeC.Application" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Aeroporto" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+            <Node name="AeC.Domain" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="ValueObjects" expanded="True" />
+            </Node>
+            <Node name="AeC.Tests" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
